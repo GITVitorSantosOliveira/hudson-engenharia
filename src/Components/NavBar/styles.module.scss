@@ -1,0 +1,38 @@
+.container{
+  width: auto;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #302D2D;
+}
+
+.logoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  h2{
+    color: #fff;
+  }
+}
+
+.navItemsContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .Link{
+  text-decoration: none;
+  margin-right: 2rem;
+  color: #fff;
+  font-weight: bold;
+  }
+}
